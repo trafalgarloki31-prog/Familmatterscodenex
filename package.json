@@ -1,0 +1,20 @@
+{
+  "name": "discord-spotify-clone-bot",
+  "version": "2.0.0",
+  "description": "7/24 Native Spotify Voice & Server Cloning Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "libsodium-wrappers": "^0.7.13",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
